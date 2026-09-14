@@ -1,0 +1,560 @@
+.header{
+     background-color: aqua;
+     display: flex;
+     padding: 20px 50px;
+}
+.logo h1{
+    color: blue;
+    font-weight: bold;
+    
+}
+.logo p{
+    text-align: center;
+}
+.menu{
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+   
+.menu a{
+    text-decoration: none;
+    color: #222;
+    white-space: nowrap;
+    font-size: 18px;
+}
+.hero-content {
+    padding: 100px 0 70px 65px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNjW0JhaeTTcZl21JKbmgmnF3SsjFrqrk0PvCDnx6fEu8jPs26BvcTBM&s=10");
+    background-size: 100% 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 48px;
+    line-height: 1.35;
+    font-family: Arial, sans-serif;
+    margin: 0 0 25px 0;
+    font-weight: 700;
+}
+
+.hero-content h2 span {
+    font-size: 46px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+.hero-content button{
+    background-color: blue;
+    width: 100px;
+    height: 35px;
+    color: white;
+
+}
+.about h3{
+    text-align: center;
+    color: blue;
+    font-size: 48px;
+    line-height: 1.35;
+    font-family: Arial, sans-serif;
+    margin: 0 0 25px 0;
+    font-weight: 700;
+}
+.about p{
+    text-align: center;
+}
+.Facilities-section{
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.Facilities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.Facilitie-box1,
+.Facilitie-box2,
+.Facilitie-box3,
+.Facilitie-box4{
+    flex: 1;
+    min-width: 250px;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,1);
+    transition: tranform 0.3s;
+}
+.Facilitie-box1,
+.Facilitie-box2,
+.Facilitie-box3,
+.Facilitie-box4{
+transform: translateY(-5px);
+}
+.Facilities img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.Facilities h4{
+    color: #003366;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.Facilities p{
+    color: #555;
+}
+.Facilities h4 {
+  color: #003366;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Box ka paragraph */
+.Facilities p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* About Our School wala section */
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.about h3 {
+  color: #003366;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about p {
+  color: #444;
+  font-size: 16px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+/* Mobile ke liye responsive */
+@media (max-width: 768px) {
+  .Facilities {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Facilities-box1, 
+  .Facilities-box2, 
+  .Facilities-box3, 
+  .Facilities-box4 {
+    width: 90%;
+}
+.Facilities-box4{
+    flex-basis: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
